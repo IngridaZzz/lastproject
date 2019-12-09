@@ -1,0 +1,129 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+div,
+section,
+summary {
+    display: block;
+}
+
+html, body {
+  height: 100%;
+	line-height: 1;
+  color: #ffffff;
+  background-color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+    text-align: right;
+}
+
+li {
+    display: inline;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #ffffff;
+  float: right;
+  padding: 60px;
+}
+
+
+#logo {
+    width: 200px;
+    padding-left: 50px;
+float: left;
+}
+
+
+.main_game #subway {
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.games {
+  background-color: rgba(211, 211, 211, 0.5);
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 150px;
+  padding-bottom: 20px;
+}
+
+.games h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#robos {
+  margin-top: -50px;
+}
+
+.games hr {
+  width: 300px;
+}
+
+.grid-container article {
+  text-align: center;
+  display: inline-block;
+  background-color: #CECECE;
+  color: #000000;
+  padding: 20px;
+  margin: 20px;
+}
+
+.description {
+  background-color: rgba(211, 211, 211, 0.5);
+  text-align: center;
+  margin-left: 280px;
+  margin-right: 280px;
+  margin-bottom: 150px;
+  padding-bottom: 30px;
+}
+
+.description h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#roboline {
+  width: 100%;
+  margin-bottom: -50px;
+}
+
+
+.description hr {
+  width: 300px;
+}
+
+.description p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#footer hr {
+  width: 95%;
+}
+
+#footer ul, li {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
